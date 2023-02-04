@@ -1,0 +1,38 @@
+body {
+    background-image: url(Books1.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(247, 244, 244);
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 75px;
+
+}
+
+p {
+    color : white;
+    font-size: 30px;
+}
+
+#stringInput {
+    font-style: italic;
+}
+
+button {
+    color: #520458;
+    width: 300px;
+    background: rgb(255, 255, 254);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-size: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
