@@ -83,9 +83,6 @@ function findBook() {
 }
 console.log(findBook());
 
-<<<<<<< HEAD
 function myFunct() {
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "livre1.html";
 }
-=======
->>>>>>> b9e9229856340c6c1118f121ddbfcdfb973f13be
