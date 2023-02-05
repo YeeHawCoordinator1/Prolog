@@ -39,7 +39,7 @@ function addTag() {
   totalTags.push(tag);
 }
 
-var intersection;
+var commonTags;
 function findBook() {
   for (let i = 0; i < Books.tags.length - 1; i++) {
     intersection = Books.tags[i].filter((x) => totalTags.includes(x));
