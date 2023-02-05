@@ -87,10 +87,7 @@ console.log(findBook());
 
 function SearchBtn() {
     window.location.href = "result.html";
-<<<<<<< HEAD
 }
 function mafnct() {
     window.location.href = "index.html";
-=======
->>>>>>> 5e978e084f0913762e5f0dac71a730cd2db6f6fb
 }
