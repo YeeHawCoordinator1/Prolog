@@ -48,39 +48,60 @@ body {
     background-size: cover;
 }
 
+.work{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pretty{
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #d1ad9b97;
+    border : none;
+}
+
+/* .pretty:hover{
+    background-color: rgb(0, 0, 0);
+} */
+
 </style>
 
 <body>
 
     
     <ul>
-        <li><a class="active" href="#home">Home</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li style="float:right"><a href="#Prolog">Prolog</a></li>
       </ul>
 
 <h2 style="margin: 50px;">THE RESULTS THAT SATISFY YOUR SEARCH ARE</h2>
-    <table style="margin-left: 25px;">
+    <table>
         <tr>
             <td>
-                <img src="illiad.jpg" alt="Iliad" style="height: 150px;">
+                <div>
+                    <img src="illiad.jpg" alt="Iliad" style="height: 150px;">
+                </div>
+                
             </td>
-            <td style="padding: 50px;"> <a class="work" href="illiad.html">The Iliad by Homer</a> 
+            <td style="padding: 50px;"><button class="pretty"><a class="work" href="illiad.html">The Iliad by Homer</a></button>  
             </td>
         </tr>
         <tr>
             <td>
                 <img src="achilles.jpg" alt="Achiles" style="height: 150px;">
             </td>
-            <td style="padding: 50px;"> <a class="work" href="achilles.html">Song of Achiles by Madeline Miller</a> 
+            <td style="padding: 50px;"><button class="pretty"> <a class="work" href="achilles.html">Song of Achiles by Madeline Miller</a> </button>
             </td>
         </tr>
         <tr>
             <td>
                 <img src="circe.jpg" alt="Circe" style="height: 150px;">
             </td>
-            <td style="padding: 50px;"> <a class="work" href="circe.html">Song of Achiles by Madeline Miller</a> 
+            <td style="padding: 50px;"><button class="pretty"><a class="work" href="circe.html">Song of Achiles by Madeline Miller</a> </button> 
             </td>
         </tr>
     </table>
