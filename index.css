@@ -13,28 +13,9 @@ h1 {
 
 }
 
-p {
-    color : white;
-    font-size: 30px;
-}
-
-#stringInput {
-    font-style: italic;
-}
-
-button {
-    color: #520458;
-    width: 300px;
-    background: rgb(255, 255, 254);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    font-size: 25px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
+#prolog{
+    padding: 40px;
+    margin: 0px;
 }
 
 .navigation_link{
@@ -43,4 +24,82 @@ button {
 
 .row{
     width: 20px;
+}
+
+#navigation_bar{
+    width: 100%;
+}
+
+.small_button{
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.medium_button{
+    padding: 13px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.pre_big{
+    padding: 18px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.big{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 39px;
+    font-weight: bold;
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.small_button:focus{
+    background-color:rgba(176, 111, 25, 0.733);
+    color: white;
+}
+
+#random1{
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#random2{
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#random1:focus{
+    background-color:rgba(176, 111, 25, 0.733);
+    color: white;
+}
+
+#random2:focus{
+    background-color:rgba(176, 111, 25, 0.733);
+    color: white;
 }
