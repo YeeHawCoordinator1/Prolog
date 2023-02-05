@@ -10,7 +10,7 @@
   }
   
   img {
-    max-width: 140%
+    max-width: 100%
     
     
 
@@ -30,33 +30,6 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
-button:hover:not(.active) {
-  background-color: rgb(198, 195, 193);
-}
-
-
-.button1 {
-  padding: 12px;
-  background-color: rgb(86, 56, 23); 
-  color: rgb(246, 242, 242); 
-  border-radius: 15px;
-  font-weight: bold;
-  margin-top: 20px;
-  border: none;
-  width: 20%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  
-    margin-left: 200px;
-
-}
-
-.button1:hover {
-  background-color: rgb(105, 78, 48);
-  color: white;
-  
-}
 
 body {
     background-image: url(fond2.avif);
@@ -70,5 +43,9 @@ body {
     text-align: justify;
     
   text-justify: inter-word;
-  margin-left: 90px;
+  margin-left: 50px;
 }
+
+button:hover:not(.active) {
+    background-color: rgb(198, 195, 193);
+  }
