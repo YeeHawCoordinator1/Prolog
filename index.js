@@ -54,7 +54,7 @@ let Books = {
   tags: [
     ["greek mythology", "lgbt", "fiction", "romance", "historical"], // Pour song of achilles
     ["theatre", "tragedy", "romance", "murder", "betrayal"], // Pour Hamlet
-    ["historical", "greek mythology", "poetry", "romance", "fiction"], // Iliade
+    ["historical", "greek mythology", "poetry", "romance", "fiction"], // Iliad
     ["historical", "greek mythology", "womenhood", "fiction"], //circe
     ["magic", "fiction", "fantasy", "friendship", "power", "love"][ // Harry potter
       ("war", "biography", "diary", "world war II", "teenage")
@@ -83,3 +83,9 @@ function findBook() {
 }
 console.log(findBook());
 
+<<<<<<< HEAD
+function myFunct() {
+    window.location.href = "http://www.w3schools.com";
+}
+=======
+>>>>>>> b9e9229856340c6c1118f121ddbfcdfb973f13be
