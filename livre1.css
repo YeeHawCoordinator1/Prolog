@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 50px;
+ 
+    
+  }
+  
+  img {
+    max-width: 100%
+    
+    
+
+  }
+  
+  .image {
+    flex-basis: 100%
+    
+  }
+
+
+  .small_button{
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url(fond2.avif);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+}
+
+
+.text{
+    text-align: justify;
+    
+  text-justify: inter-word;
+  margin-left: 50px;
+}
+
+button:hover:not(.active) {
+    background-color: rgb(198, 195, 193);
+  }
