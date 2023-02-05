@@ -1,8 +1,13 @@
+
+
+const fuckMyLIfe = document.querySelectorAll('.small_button');
+
 const selectedBookCategories = [];
 // wait for the DOM to finish loading before accessing the DOM
 document.addEventListener("DOMContentLoaded", () => {
   const buttonsContainer = document.querySelector("#buttons-container");
   const buttons = buttonsContainer.children;
+
 
   const selectedBookCategoriesContainer = document.querySelector(
     "#selected-book-categories"
@@ -78,6 +83,9 @@ function findBook() {
 }
 console.log(findBook());
 
+<<<<<<< HEAD
 function myFunct() {
     window.location.href = "http://www.w3schools.com";
 }
+=======
+>>>>>>> b9e9229856340c6c1118f121ddbfcdfb973f13be
