@@ -83,6 +83,14 @@ function findBook() {
 }
 console.log(findBook());
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6aaf3b78676275707c9a6aa092e09ddd67711398
 function myFunct() {
     window.location.href = "livre1.html";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6aaf3b78676275707c9a6aa092e09ddd67711398
