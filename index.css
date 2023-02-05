@@ -37,8 +37,8 @@ button {
     margin-top: 10px;
 }
 
-#navigation_tabs{
-    width: 20px;
+.navigation_link{
+    color: white;
 }
 
 .row{
