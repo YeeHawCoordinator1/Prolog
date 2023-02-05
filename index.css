@@ -17,7 +17,12 @@ h1 {
   padding: 40px;
   margin: 0px;
 }
-
+.navigation_tabs{
+        background-color: rgb(43, 35, 35);
+        border-collapse: collapse;
+        border: 1px solid rgb(249, 247, 249);
+        padding: 8px;
+}
 .navigation_link {
   color: white;
 }
