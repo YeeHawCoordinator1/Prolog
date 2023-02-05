@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-const fuckMyLIfe = document.querySelectorAll('.small_button');
 
-fuckMyLIfe.forEach(fuckMyLIfe => {
-    fuckMyLIfe.addEventListener('click', () => {
-        fuckMyLIfe.classList.add('clicked');
-    });
-});
-=======
 let Books = {
     names : ['Song of achilles', 'Hamlet', 'Iliade','Circe', 'Harry Potter', 'Anne Frank'],
     tags : [['greek', 'LGBTQ+', 'fiction', 'romance', 'historical'], // Pour song of achilles 
@@ -38,4 +30,3 @@ function findBook() {
    return booksRecommandation;
 }
 console.log(findBook());
->>>>>>> 86c96a5431fa13d0b2a473507221710d14541ba0
