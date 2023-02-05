@@ -85,6 +85,6 @@ function findBook() {
 }
 console.log(findBook());
 
-function myFunct() {
-    window.location.href = "livre1.html";
+function SearchBtn() {
+    window.location.href = "result.html";
 }
