@@ -1,74 +1,75 @@
 body {
-    background-image: url(Books1.jpg);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    text-align: center;
-    background-size: cover;
+  background-image: url(Books1.jpg);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  text-align: center;
+  background-size: cover;
 }
 
 h1 {
-    color: rgb(247, 244, 244);
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-size: 75px;
-
+  color: rgb(247, 244, 244);
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 75px;
 }
 
-#prolog{
-    padding: 40px;
-    margin: 0px;
+#prolog {
+  padding: 40px;
+  margin: 0px;
 }
 
-.navigation_link{
-    color: white;
+.navigation_link {
+  color: white;
 }
 
-.row{
-    width: 20px;
+.row {
+  width: 20px;
 }
 
-#navigation_bar{
-    width: 100%;
+#navigation_bar {
+  width: 100%;
 }
 
-.small_button{
-    padding: 8px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 15px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.small_button {
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.medium_button{
-    padding: 13px;
-    margin-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 20px;
-    font-weight: bold;
+.medium_button {
+  padding: 13px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
-.pre_big{
-    padding: 18px;
-    margin-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 25px;
-    font-weight: bold;
+.pre_big {
+  padding: 18px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
 }
 
-.big{
-    padding: 20px;
-    margin-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 39px;
-    font-weight: bold;
-    font-size: large;
+.big {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 39px;
+  font-weight: bold;
+  font-size: large;
 }
-button:hover{
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.5);
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* .small_button:focus{
@@ -76,6 +77,36 @@ button:hover{
     color: white;
 } */
 
-.clicked{
-    background-color: rgba(176,111,25,0.7);
+.clicked {
+  background-color: rgba(176, 111, 25, 0.7);
+}
+
+#selected-book-categories {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#selected-book-categories > div {
+  display: block;
+  background-color: rgba(176, 111, 25, 0.7);
+  color: white;
+  padding: 18px;
+  margin-bottom: 10px;
+
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+#search-button {
+  margin-top: 20px;
+  padding: 18px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-weight: bold;
 }
