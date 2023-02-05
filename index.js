@@ -60,6 +60,7 @@ let Books = {
       ("war", "biography", "diary", "world war II", "teenage")
     ],
   ],
+  paths : ["achilles.html", " ", "illiad.html", "circe.html", " ", " "]
 };
 
 var tag; //variable contenant le tag du bouton préssé
@@ -76,9 +77,10 @@ function findBook() {
   for (let i = 0; i < Books.tags.length - 1; i++) {
     intersection = Books.tags[i].filter((x) => totalTags.includes(x));
     if (intersection.length >= 3) {
-      booksRecommandation.push(Books.names[i]);
+      booksRecommandation.push(Books.paths[i]);
     }
   }
+
   return booksRecommandation;
 }
 console.log(findBook());
