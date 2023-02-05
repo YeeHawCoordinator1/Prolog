@@ -13,28 +13,9 @@ h1 {
 
 }
 
-p {
-    color : white;
-    font-size: 30px;
-}
-
-#stringInput {
-    font-style: italic;
-}
-
-button {
-    color: #520458;
-    width: 300px;
-    background: rgb(255, 255, 254);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    font-size: 25px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
+#prolog{
+    padding: 40px;
+    margin: 0px;
 }
 
 .navigation_link{
@@ -43,4 +24,8 @@ button {
 
 .row{
     width: 20px;
+}
+
+#navigation_bar{
+    width: 100%;
 }
