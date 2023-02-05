@@ -71,35 +71,11 @@ button:hover{
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.small_button:focus{
+/* .small_button:focus{
     background-color:rgba(176, 111, 25, 0.733);
     color: white;
-}
+} */
 
-#random1{
-    padding: 8px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 15px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-#random2{
-    padding: 8px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 15px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-#random1:focus{
-    background-color:rgba(176, 111, 25, 0.733);
-    color: white;
-}
-
-#random2:focus{
-    background-color:rgba(176, 111, 25, 0.733);
-    color: white;
+.clicked{
+    background-color: rgba(176,111,25,0.7);
 }
